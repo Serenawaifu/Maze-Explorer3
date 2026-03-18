@@ -1,0 +1,88 @@
+
+> @workspace/maze-game@0.0.0 dev /home/runner/workspace/artifacts/maze-game
+> vite --config vite.config.ts --host 0.0.0.0
+
+[2m5:22:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
+
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m461[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m20143[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.83.34:[1m20143[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:24:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/game/PlayerController.tsx[22m
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1773854662443,"name":"Error","message":"checkCollision is not defined","stack":"    at Object.current /home/runner/workspace/artifacts/maze-game/src/game/PlayerController.tsx:208:7\n\n","loc":{"line":208,"column":7,"file":"/home/runner/workspace/artifacts/maze-game/src/game/PlayerController.tsx"},"frame":"206|        const newZ = lp.z + moveDir.z;\n207|        let moved = false;\n208|        if (!checkCollision(newX, lp.z)) { lp.x = newX; moved = true; }\n   |        ^\n209|        if (!checkCollision(lp.x, newZ)) { lp.z = newZ; moved = true; }\n210|        if (moved) {"}
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1773854662454,"name":"Error","message":"checkCollision is not a function","stack":"    at Object.current /home/runner/workspace/artifacts/maze-game/src/game/PlayerController.tsx:208:12\n\n","loc":{"line":208,"column":12,"file":"/home/runner/workspace/artifacts/maze-game/src/game/PlayerController.tsx"},"frame":"206|        const newZ = lp.z + moveDir.z;\n207|        let moved = false;\n208|        if (!checkCollision(newX, lp.z)) { lp.x = newX; moved = true; }\n   |             ^\n209|        if (!checkCollision(lp.x, newZ)) { lp.z = newZ; moved = true; }\n210|        if (moved) {"}
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1773854662469,"name":"Error","message":"checkCollision is not a function","stack":"    at Object.current /home/runner/workspace/artifacts/maze-game/src/game/PlayerController.tsx:208:12\n\n","loc":{"line":208,"column":12,"file":"/home/runner/workspace/artifacts/maze-game/src/game/PlayerController.tsx"},"frame":"206|        const newZ = lp.z + moveDir.z;\n207|        let moved = false;\n208|        if (!checkCollision(newX, lp.z)) { lp.x = newX; moved = true; }\n   |             ^\n209|        if (!checkCollision(lp.x, newZ)) { lp.z = newZ; moved = true; }\n210|        if (moved) {"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:24:30 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/game/PlayerController.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:24:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/game/PlayerController.tsx[22m [33m(x2)[39m
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31m@workspace/maze-game@0.0.0 dev: `vite --config vite.config.ts --host 0.0.0.0`[39m
+[31mCommand failed with signal "SIGTERM"[39m

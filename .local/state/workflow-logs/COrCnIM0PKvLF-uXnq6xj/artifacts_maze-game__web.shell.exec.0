@@ -1,0 +1,36 @@
+
+> @workspace/maze-game@0.0.0 dev /home/runner/workspace/artifacts/maze-game
+> vite --config vite.config.ts --host 0.0.0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m330[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m20143[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.31.83.34:[1m20143[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[RUNTIME_ERROR]{"type":"runtime-error","timestamp":1773855224097,"name":"Error","message":"Error creating WebGL context.","stack":"    at new WebGLRenderer (https://28a79b4a-45dd-47a4-94f1-8cdaabb18c92-00-1v3uw946qg5gl.sisko.replit.dev/node_modules/.vite/deps/chunk-L2UN6BKD.js?v=9ca20f43:41794:19)\n\n\n\n\n\n\n\n\n"}
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31m@workspace/maze-game@0.0.0 dev: `vite --config vite.config.ts --host 0.0.0.0`[39m
+[31mCommand failed with signal "SIGTERM"[39m
